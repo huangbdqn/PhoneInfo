@@ -25,6 +25,13 @@ public class InformationsController {
         return ResponseEntity.ok(list);
     }
 
+    /** 
+    * @Description: 阿萨法 
+    * @Param:  
+    * @return:  
+    * @Author: 
+    * @Date: 2019/10/22 
+    */
     @GetMapping("{id}.html")
     public String queryInformations(@PathVariable("id") Long id, Model model){
         Informations informations = informationsService.queryInformationsById(id);
