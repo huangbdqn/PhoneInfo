@@ -19,13 +19,7 @@ public class InformationsController {
     @Resource
     InformationsService informationsService;
 
-    /** 
-    * @Description: 阿发送到发撒旦法
-    * @Param:  
-    * @return:  
-    * @Author: 
-    * @Date: 2019/10/22 
-    */
+
     @GetMapping("queryAll")
     public ResponseEntity<List<Informations>> queryAll(){
         List<Informations> list = informationsService.queryAll();
