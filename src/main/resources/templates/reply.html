@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>xiangqing</title>
+</head>
+<body>
+<h2 th:text="${informations.title}"></h2>
+<p>发表于：<span th:text="${#dates.format(informations.reporttime,'yyyy-MM-dd HH:mm:ss')}"></span></p>
+<p th:text="${informations.content}"></p>
+<h3>读者回应：</h3>
+<div th:each="reply : ${informations.replies}">
+    发表于：<span th:text="${#dates.format(reply.replytime,'yyyy-MM-dd HH:mm:ss')}"></span>
+    <p th:text="${reply.content}"></p>
+</div>
+<form>
+    <input id="hidden" type="hidden" th:value="${informations.id}">
+    <textarea id="text"></textarea>
+    <input type="button" value="提交"><a href="/index.html">返回首页</a>
+</form>
+</body>
+<script type="text/javascript" th:src="@{/js/jquery-1.8.3.min.js}"></script>
+<script>
+    $(function () {
+        $(":button").click(function () {
+            var content = $("#text").val();
+            var id = $("#hidden").val();
+            $.ajax({
+                type:"post",
+                url:"/reply/addreply",
+                data:{"content":content,"infoid":id},
+                dataType:"json",
+                success:function(data){
+                    $("div:last").append("发表于："+data.replytime+"<p>"+data.content+"</p>");
+                }
+            });
+        })
+    })
+
+
+
+
+
+</script>
+</html>

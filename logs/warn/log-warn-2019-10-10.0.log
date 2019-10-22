@@ -1,0 +1,33 @@
+2019-10-12 09:56:48.500 ERROR --- [main] org.springframework.boot.SpringApplication Line:837 - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[WARN] - 'File' option has the same value "logs/log_warn.log" as that given for appender [ERROR] defined earlier.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[WARN] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[WARN] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:264)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.bdqn.hx.PhoneInfoApplication.main(PhoneInfoApplication.java:12)
+2019-10-12 09:57:17.531 WARN  --- [main] org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[com.bdqn.hx]' package. Please check your configuration.
+2019-10-10 09:58:57.943 WARN  --- [main] org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[com.bdqn.hx]' package. Please check your configuration.
+2019-10-10 10:06:19.895 WARN  --- [main] org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[com.bdqn.hx]' package. Please check your configuration.
+2019-10-10 10:06:57.864 WARN  --- [main] org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[com.bdqn.hx]' package. Please check your configuration.
+2019-10-10 10:08:10.769 WARN  --- [main] org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[com.bdqn.hx]' package. Please check your configuration.
+2019-10-10 10:09:14.880 WARN  --- [main] org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[com.bdqn.hx]' package. Please check your configuration.
+2019-10-10 10:09:48.206 WARN  --- [main] org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[com.bdqn.hx]' package. Please check your configuration.
+2019-10-10 10:12:16.796 WARN  --- [main] org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[com.bdqn.hx]' package. Please check your configuration.
+2019-10-10 10:15:29.449 WARN  --- [main] org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[com.bdqn.hx]' package. Please check your configuration.

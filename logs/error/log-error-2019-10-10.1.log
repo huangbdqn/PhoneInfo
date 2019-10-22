@@ -1,0 +1,166 @@
+2019-10-13 09:58:02.653 ERROR --- [http-nio-8080-exec-8] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-13 09:58:02.729 ERROR --- [http-nio-8080-exec-8] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 09:59:06.600 ERROR --- [http-nio-8080-exec-3] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 09:59:06.601 ERROR --- [http-nio-8080-exec-3] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 09:59:08.182 ERROR --- [http-nio-8080-exec-4] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 09:59:08.184 ERROR --- [http-nio-8080-exec-4] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 09:59:25.949 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 09:59:25.995 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 09:59:29.248 ERROR --- [http-nio-8080-exec-3] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 09:59:29.249 ERROR --- [http-nio-8080-exec-3] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 10:06:34.308 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 10:06:34.309 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 10:07:20.082 ERROR --- [main] org.springframework.boot.SpringApplication Line:837 - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - There is no conversion class registered for conversion word [wEx]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@159a598 - [wEx] is not a valid conversion word
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:264)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.bdqn.hx.PhoneInfoApplication.main(PhoneInfoApplication.java:12)
+2019-10-10 10:07:54.973 ERROR --- [main] org.springframework.boot.SpringApplication Line:837 - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - There is no conversion class registered for conversion word [wEx]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@c15d8b - [wEx] is not a valid conversion word
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:264)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.bdqn.hx.PhoneInfoApplication.main(PhoneInfoApplication.java:12)
+2019-10-10 10:08:25.965 ERROR --- [http-nio-8080-exec-3] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 10:08:25.966 ERROR --- [http-nio-8080-exec-3] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 10:08:44.760 ERROR --- [main] org.springframework.boot.SpringApplication Line:837 - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - There is no conversion class registered for conversion word [wEx]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@5d7657 - [wEx] is not a valid conversion word
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:264)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.bdqn.hx.PhoneInfoApplication.main(PhoneInfoApplication.java:12)
+2019-10-10 10:09:03.380 ERROR --- [main] org.springframework.boot.SpringApplication Line:837 - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - There is no conversion class registered for composite conversion word [clr]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - Failed to create converter for [%clr] keyword
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - There is no conversion class registered for conversion word [wEx]
+ERROR in ch.qos.logback.core.pattern.parser.Compiler@1e94a96 - [wEx] is not a valid conversion word
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:169)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:82)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:117)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:264)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:338)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
+	at com.bdqn.hx.PhoneInfoApplication.main(PhoneInfoApplication.java:12)
+2019-10-10 10:09:20.596 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 10:09:20.597 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 10:15:37.872 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:32  - 失败
+2019-10-10 10:15:37.873 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:33  - / by zero

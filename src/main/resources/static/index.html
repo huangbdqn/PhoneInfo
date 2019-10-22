@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手机资讯</title>
+</head>
+<body>
+
+<h2 align="center">手机资讯</h2>
+<table border="1" align="center" id="tbl">
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th>标题</th>
+        <th>回复/查看</th>
+        <th>发表时间</th>
+        <th>最新回复</th>
+    </tr>
+    </thead>
+</table>
+</body>
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+<script>
+    $(function () {
+        $.ajax({
+            type:"GET",
+            url:"/info/queryAll",
+            dataType:"json",
+            success:function(data){
+                console.log(data);
+                var str = "";
+                for (i=0;i<data.length;i++){
+                    str += "<tr><td>"+data[i].id+"</td><td><a href='/info/"+data[i].id+".html'>"+data[i].title+"</a></td><td>"+data[i].replycount+"/"+data[i].viewcount+"</td><td>"+data[i].reporttime+"</td><td>"+data[i].lastposttime+"</td></tr>";
+                }
+                $("#tbl").append(str);
+                //隔行变色
+                var tblEle = $("#tbl").get(0);
+                var len = tblEle.tBodies[0].rows.length;
+                for(var i=0;i<len;i++){
+                    if(i%2==0){
+                        tblEle.tBodies[0].rows[i].style.backgroundColor="pink";
+                    }else{
+                        tblEle.tBodies[0].rows[i].style.backgroundColor="gold";
+                    }
+                }
+            }
+        });
+    })
+</script>
+</html>

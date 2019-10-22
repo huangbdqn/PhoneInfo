@@ -1,0 +1,1 @@
+2019-10-19 10:54:41.275 WARN  --- [main] org.mybatis.spring.mapper.ClassPathMapperScanner Line:166 - No MyBatis mapper was found in '[com.bdqn.hx]' package. Please check your configuration.

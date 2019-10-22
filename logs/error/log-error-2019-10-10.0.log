@@ -1,0 +1,15 @@
+2019-10-10 09:40:18.774 ERROR --- [http-nio-8080-exec-1] com.bdqn.hx.service.InformationsService Line:30  - / by zero
+2019-10-10 09:41:09.718 ERROR --- [http-nio-8080-exec-4] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 09:41:09.719 ERROR --- [http-nio-8080-exec-4] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 09:42:06.174 ERROR --- [http-nio-8080-exec-1] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 09:42:06.175 ERROR --- [http-nio-8080-exec-1] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 09:43:59.148 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 09:43:59.149 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 09:45:11.390 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 09:45:11.391 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 09:45:28.723 ERROR --- [http-nio-8080-exec-7] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 09:45:28.724 ERROR --- [http-nio-8080-exec-7] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 09:45:39.827 ERROR --- [http-nio-8080-exec-3] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 09:45:39.828 ERROR --- [http-nio-8080-exec-3] com.bdqn.hx.service.InformationsService Line:31  - / by zero
+2019-10-10 09:48:13.205 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:30  - 失败
+2019-10-10 09:48:13.207 ERROR --- [http-nio-8080-exec-2] com.bdqn.hx.service.InformationsService Line:31  - / by zero
