@@ -23,7 +23,6 @@ public class InformationsController {
     @GetMapping("queryAll")
     public ResponseEntity<List<Informations>> queryAll(){
         List<Informations> list = informationsService.queryAll();
-        System.out.println(111);
         return ResponseEntity.ok(list);
     }
 
