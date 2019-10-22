@@ -39,6 +39,7 @@ public class InformationsController {
         Informations informations = informationsService.queryInformationsById(id);
         model.addAttribute("informations",informations);
         System.out.println("informations = " + informations);
+        System.out.println(2323);
         return "reply";
     }
 
