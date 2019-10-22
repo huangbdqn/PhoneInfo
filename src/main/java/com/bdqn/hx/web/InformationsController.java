@@ -24,7 +24,6 @@ public class InformationsController {
     public ResponseEntity<List<Informations>> queryAll(){
         List<Informations> list = informationsService.queryAll();
         System.out.println(2222);
-        System.out.println(333);
         return ResponseEntity.ok(list);
     }
 
