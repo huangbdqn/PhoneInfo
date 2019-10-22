@@ -20,7 +20,7 @@ public class InformationsController {
     InformationsService informationsService;
 
     /** 
-    * @Description: 阿发送到发撒旦法 
+    * @Description: 阿发送到发撒旦法
     * @Param:  
     * @return:  
     * @Author: 
@@ -29,6 +29,7 @@ public class InformationsController {
     @GetMapping("queryAll")
     public ResponseEntity<List<Informations>> queryAll(){
         List<Informations> list = informationsService.queryAll();
+        System.out.println(111);
         return ResponseEntity.ok(list);
     }
 
