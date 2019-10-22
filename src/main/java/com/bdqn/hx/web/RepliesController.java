@@ -17,6 +17,13 @@ public class RepliesController {
     @Resource
     private RepliesService repliesService;
 
+    /**
+    * @Description: 添加说明
+    * @Param:
+    * @return:
+    * @Author:
+    * @Date: 2019/10/22
+    */
     @PostMapping("addreply")
     private ResponseEntity<Replies> addreply(Replies replies){
         replies.setReplytime(new Date());
